@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollections", "CustomCollections.csproj", "{4C823910-CC3A-4115-971E-0984C306DFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomCollectionsTests", "..\CustomCollectionTests\CustomCollectionsTests.csproj", "{EEE978B3-06F7-4D79-8B5F-7A69D7242C56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C823910-CC3A-4115-971E-0984C306DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C823910-CC3A-4115-971E-0984C306DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C823910-CC3A-4115-971E-0984C306DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C823910-CC3A-4115-971E-0984C306DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE978B3-06F7-4D79-8B5F-7A69D7242C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE978B3-06F7-4D79-8B5F-7A69D7242C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE978B3-06F7-4D79-8B5F-7A69D7242C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE978B3-06F7-4D79-8B5F-7A69D7242C56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {119DF088-1922-4249-B923-9BD05C9F7B1A}
+	EndGlobalSection
+EndGlobal
