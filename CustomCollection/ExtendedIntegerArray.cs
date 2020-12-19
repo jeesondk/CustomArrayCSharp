@@ -1,13 +1,13 @@
 ﻿using System;
 namespace CustomCollection
 {
-    public class ExtededIntegerArray
+    public class ExtendedIntegerArray
     {
 
         private int[] sum;
         private int[] values;
 
-        public ExtededIntegerArray(int size)
+        public ExtendedIntegerArray(int size)
         {
             if (size < 1)
                 throw new ArgumentOutOfRangeException("Array size must be greater than 1");
@@ -20,7 +20,7 @@ namespace CustomCollection
 
         public int Length => values.Length;
 
-        public int SumOf(int position1, int position2) => sum[position2] - sum[position1];
+        public int SumOf(int position1, int position2) => Math.Abs(sum[position2] - sum[position1]);
 
 
         private void SetValue(int value, int index)
